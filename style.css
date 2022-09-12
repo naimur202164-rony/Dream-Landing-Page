@@ -179,7 +179,43 @@ nav .btn {
 }
 
 .featured p {
+  padding: 1rem 0rem;
   text-align: center;
   color: var(--light-gray-color);
 }
 /* cards */
+
+.cards {
+  padding: 4rem 0rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background: var(--white-color);
+}
+.card h3 {
+  font-size: 24px;
+  font-size: 300;
+  color: var(--text-black-color);
+  padding: 0.3rem 0rem;
+}
+
+.card-footer {
+  padding: 1rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-footer .footer-clock {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card .price {
+  color: var(--yellow-color);
+  font-weight: bold;
+}
