@@ -27,7 +27,7 @@ a {
   --gray-color: #7c8290;
   --yellow-color: #fab33f;
   --light-blue-color: #9accf9;
-  --body-background-color: #e9ebf3;
+  --body-background-color: #f5f8ff;
 }
 
 /* Dekstop Nav bar */
@@ -126,6 +126,9 @@ nav .btn {
 }
 
 /* Provide-section */
+.provider {
+  background: var(--body-background-color);
+}
 .provid-section h2 {
   padding: 2rem 0rem;
   color: var(--text-black-color);
@@ -136,4 +139,10 @@ nav .btn {
   text-align: center;
   font-size: 1rem;
   color: var(--light-gray-color);
+}
+
+/* provid card section */
+
+.trip-cards .trip-card {
+  background: var(--white-color);
 }
