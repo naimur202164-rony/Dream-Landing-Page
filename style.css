@@ -250,3 +250,7 @@ nav .btn {
   gap: 3rem;
 }
 /* Footer */
+
+footer {
+  background: var(--dark-color);
+}
