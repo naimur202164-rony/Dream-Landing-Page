@@ -33,7 +33,7 @@ a {
 /* Dekstop Nav bar */
 header {
   background-image: url("./assets/nature.png");
-  height: 100vh;
+  height: 90vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -98,6 +98,7 @@ nav .btn {
   height: 4rem;
   width: 45rem;
   background: var(--white-color);
+  position: relative;
 }
 .input-items a {
   color: var(--white-color);
