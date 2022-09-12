@@ -64,3 +64,43 @@ nav .btn {
   border: 1px solid var(--light-gray-color);
   padding: 0.8rem 1.3rem;
 }
+
+/* Banner-Section */
+.banner-section h2 {
+  padding-top: 15rem;
+  text-align: center;
+  color: var(--white-color);
+  font-size: 3.9rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.banner-section p {
+  padding: 1rem 0rem;
+  text-align: center;
+  color: var(--white-color);
+  font-size: 1.2rem;
+}
+/* Input-container */
+.input-container {
+  display: flex;
+  justify-content: center;
+}
+.input-items {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 3rem 0rem;
+}
+.input-container input {
+  max-width: 100%;
+  border: none;
+  border-radius: 0.3rem;
+  height: 4rem;
+  width: 45rem;
+  background: var(--white-color);
+}
+.input-items a {
+  color: var(--white-color);
+  padding: 23px 48px;
+  background: var(--blue-color);
+}
