@@ -219,3 +219,32 @@ nav .btn {
   color: var(--yellow-color);
   font-weight: bold;
 }
+
+/* Working Barand section */
+.brand-text h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--text-black-color);
+}
+
+.brand-text p {
+  text-align: center;
+  padding: 1rem 0rem;
+  color: var(--light-gray-color);
+}
+
+.brands {
+  padding: 4rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brands img {
+  height: 2rem;
+}
+.brand {
+  padding: 2rem 0rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
