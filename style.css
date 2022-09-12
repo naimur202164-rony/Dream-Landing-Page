@@ -24,6 +24,7 @@ a {
   --blue-color: #34a5e4;
   --text-black-color: #1e2a39;
   --liner-color: #0d092d;
+  --dark-color: #10100e;
   --gray-color: #7c8290;
   --yellow-color: #fab33f;
   --light-blue-color: #9accf9;
@@ -248,3 +249,4 @@ nav .btn {
   justify-content: center;
   gap: 3rem;
 }
+/* Footer */
