@@ -124,3 +124,16 @@ nav .btn {
 .input-content .items h3 {
   color: var(--gray-color);
 }
+
+/* Provide-section */
+.provid-section h2 {
+  padding: 2rem 0rem;
+  color: var(--text-black-color);
+  text-align: center;
+  font-size: 2.5rem;
+}
+.provid-section p {
+  text-align: center;
+  font-size: 1rem;
+  color: var(--light-gray-color);
+}
