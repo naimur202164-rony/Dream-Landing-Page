@@ -105,3 +105,20 @@ nav .btn {
   padding: 23px 48px;
   background: var(--blue-color);
 }
+/* main-root */
+.input-content {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.input-content .items {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.input-content .items h3 {
+  color: var(--gray-color);
+}
