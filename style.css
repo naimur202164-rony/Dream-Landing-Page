@@ -254,3 +254,32 @@ nav .btn {
 footer {
   background: var(--dark-color);
 }
+
+.footer-container {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-container p {
+  padding-top: 0.4rem;
+  color: var(--white-color);
+}
+.footer-container h4 {
+  color: var(--white-color);
+}
+
+.footer-container .items {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.recent h2 {
+  color: var(--white-color);
+}
+.recent p {
+  padding-top: 1rem;
+}
