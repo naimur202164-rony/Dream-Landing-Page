@@ -1,9 +1,39 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto&display=swap");
 
+/* Rest-Css */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+/* Root colors */
+
+:root {
+  --white-color: #ffffff;
+  --light-gray-color: #5e5c68;
+  --blue-color: #34a5e4;
+  --text-black-color: #1e2a39;
+  --liner-color: #0d092d;
+  --gray-color: #7c8290;
+  --yellow-color: #fab33f;
+  --light-blue-color: #9accf9;
+  --body-background-color: #e9ebf3;
+}
+
+body {
+}
+
 header {
   background-image: url("./assets/nature.png");
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/*  */
