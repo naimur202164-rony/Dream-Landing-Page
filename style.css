@@ -9,6 +9,7 @@
 }
 
 .container {
+  width: 1140px;
   margin: 0 auto;
 }
 
@@ -24,9 +25,6 @@
   --yellow-color: #fab33f;
   --light-blue-color: #9accf9;
   --body-background-color: #e9ebf3;
-}
-
-body {
 }
 
 header {
