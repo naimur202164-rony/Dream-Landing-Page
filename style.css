@@ -38,3 +38,20 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li a {
+  margin-right: 42px;
+  color: var(--white-color);
+  font-family: "Poppins", sans-serif;
+}
